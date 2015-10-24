@@ -30,6 +30,7 @@ include('session.php');
 						}
 
 						$fields_num = mysql_num_fields($result);
+                                       echo 'mamammamamaaamksat';
 
 						echo "<h1>Table: {$table}</h1>";
 						echo "<table border='1'><tr>";
