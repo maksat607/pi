@@ -1,0 +1,3 @@
+CREATE TABLE income (  id INT AUTO_INCREMENT,   type VARCHAR(50) DEFAULT 'cash',    fare float(7,2) DEFAULT 0,  date TIMESTAMP  DEFAULT CURRENT_TIMESTAMP,  primary key (id)   );
+Query OK, 0 rows affected (0.02 sec)
+

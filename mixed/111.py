@@ -1,0 +1,1 @@
+ #!/usr/bin/pythonimport RPi.GPIO as GPIOimport timeprint("Hello World!")GPIO.setmode(GPIO.BOARD)# init list with pin numbers# loop through pins and set mode and state to 'low'GPIO.setup(7, GPIO.OUT) GPIO.output(7,0)GPIO.cleanup()
