@@ -56,8 +56,8 @@ if(is_numeric(preg_replace('/\s+/', '', $fare))){
 					echo "Error: " . $sql . "<br>" . $conn->error;
 				}
 			
-			
-			}else{
+			//maksat
+			}else {
 				$sql = "INSERT INTO income (type, fare,user)
 				VALUES ('$type', '$fare','$login_id')";
 				if ($conn->query($sql) === TRUE) {
